@@ -1,0 +1,242 @@
+body {
+background: #FCFBF5;
+margin: 0px;
+padding: 0px;
+
+}
+
+header {
+	position: fixed;
+	top:0;
+    left:0;
+    width: 100%;
+    height:130px;
+	background: white;
+	z-index:3;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	height: 120px;
+	text-align: center;
+	margin-top: 83px;
+	overflow: hidden;
+
+}
+
+
+
+li {
+    margin-top: 50px;
+	display: inline;
+
+}
+li a {
+	text-align: center;
+	text-decoration: none;
+
+}
+a {
+
+	padding: 30px;
+	font-family: Muli;
+	color:#707070;
+
+}
+.active, li a:hover{
+	color:#969626;
+}
+
+#social a{
+    padding: 7px;
+}
+#social {
+	position: fixed;
+	top:5px;
+	right:10px;
+}
+
+h1 {
+text-align: center;
+font-family: Muli;
+color: #7893A2; /*#71b2f0;*/
+
+}
+
+
+h2 {
+text-align: center;
+align-items: center;
+justify-content: center;
+font-family: Muli;
+color: white;
+font-size: 50px;
+position: absolute;
+top: 290px;
+right: 40%;
+
+
+}
+
+
+textarea {
+	font-family: Muli;
+	color:#334955;
+	text-align: left;
+	font-size: 15px;
+
+
+}
+
+#container1 textarea{
+	margin-left: 15px;
+	width: 250px;
+	height: 40px;
+}
+#container2 textarea{
+	margin-left: 15px;
+	width: 250px;
+	height: 40px;
+}
+#container3 textarea{
+	margin-left: 15px;
+	width: 360px;
+	height: 250px;
+
+}
+
+ul {
+
+list-style-type: none;
+margin:0;
+padding: 0;
+height: 100px;
+text-align: center;
+margin-top: 83px;
+overflow: hidden;
+
+
+
+}
+
+li {
+margin-top: 50px;
+display: inline;
+
+}
+
+
+li a {
+text-align: center;
+text-decoration: none;
+
+}
+
+
+a {
+
+padding: 30px;
+font-family: Muli;
+color:#707070;
+
+}
+
+.active, li a:hover{
+color:#969626;
+}
+
+#donut {
+position: fixed;
+left: 0;
+top:10px;
+}
+
+#ContactBlue {
+	padding-top: 130px;
+	background: #7893A2; /*#71b2f0;*/
+	height: 500px;
+	width: 100%;
+	font-family: Muli;
+	font-size: 10px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 600px;
+
+}
+
+#boxes {
+	margin-top: 400px; /*440*/
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content:center;
+}
+
+
+.Wrap {
+	display: flex;
+	height: 600px;
+	width: 500px;
+	background-color: #E9EBD9;
+	justify-content: center;
+	margin: 6px;
+}
+
+
+.GetinTouch {
+	color:#334955;
+	font-size: 20px;
+	font-family: Roboto;
+	line-height: 2;
+	text-align: center;
+	background-color: white;
+	width:500px;
+	height:600px;
+
+}
+
+.JoinUs {
+
+	font-size: 20px;
+	font-family: serif;
+	line-height: 2;
+	text-align: left;
+
+
+
+
+
+}
+#number {
+	color:#A84D4D;
+}
+
+#map {
+	position: relative;
+	width: 100%;
+}
+
+/* to change */
+#Baker{
+	z-index:10;
+	position: absolute;
+	top: 1510px;
+	left: 18%;
+	margin-bottom: 30px;
+}
+
+#Kingping {
+	z-index: 2;
+	position: absolute;
+	top:  1200px;
+	left:18%;
+}
+
+
+#Berkeley {
+	position: absolute;
+	top: 1200px;
+	left: 50.5%;
+
+}
