@@ -1,0 +1,126 @@
+body {
+	background: #FCFBF5;
+
+	
+}
+#social a{
+    padding: 7px;
+}
+#social {
+	position: fixed;
+	top:5px;
+	right:10px;
+}
+
+header {
+	position: fixed;
+	top:0;
+    left:0;
+    width: 100%;
+    height:130px;
+	background: white;
+}
+ul {
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+	height: 120px;
+	text-align: center;
+	margin-top: 83px;
+	overflow: hidden;
+
+	
+}
+li {
+    margin-top: 50px;
+	display: inline;
+	
+}
+li a {
+	text-align: center;
+	text-decoration: none;
+
+}
+a {
+	padding: 30px;
+	font-family: Muli;
+	color:#707070;
+
+}
+.active, li a:hover{
+	color:#969626;
+}
+
+
+#navbar {
+	font-family: Muli;
+	background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.nav {
+	
+	padding: 20px;
+
+}
+#title {
+	font-size: 35pt;
+	font-family: Great Vibes;
+	margin:auto;
+	margin-top: -25px;
+	margin-left: 37%;
+	color: #534706;
+	padding-bottom: 20px;
+	
+}
+span:after,
+span:before{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+    
+
+}
+
+.container1 {
+	position: relative;
+	width: 850px;
+	height:380px;
+
+	margin:auto;
+}
+.layered {
+	position: absolute;
+	margin-left: -25px;
+}
+
+#text {
+	position: absolute;
+	bottom: -115px;
+	left:20px;
+	color:white;
+	margin:auto;
+	width:800px;
+	margin-bottom: 180px;
+	padding:10px;
+	line-height: 1.5;
+	font-size: 14pt;
+	font-family: Raleway;
+
+}
+#donut {
+	position: fixed;
+	left: 0;
+	top:10px;
+}
+
+#history {
+	margin-top: 30px;
+	width:1000px;
+	height:auto;
+	margin-bottom: -10px;
+}
+
+
